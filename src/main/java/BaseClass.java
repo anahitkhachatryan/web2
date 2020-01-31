@@ -25,7 +25,7 @@ public class BaseClass {
         return driver.findElement(elementBy).getText();
     }
 
-    public void getUrl(String url){
+    public void getUrl(String url) {
         driver.get(url);
     }
 
